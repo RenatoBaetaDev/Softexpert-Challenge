@@ -4,10 +4,6 @@
 
         private $connection;
 
-        public function __construct() {
-
-        }
-
         private function getConnectionProperties()
         {
             $env = new Enviroment();
